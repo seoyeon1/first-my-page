@@ -2,18 +2,26 @@ body {
     position: fixed; 
     top: 0; 
     left: 0;
-    overflow: auto;
+    /* overflow: scroll; */
     min-width: 100%;
     min-height: 100%;
-    background-image: url("./milky-way-2695569_1920.jpg")
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-clip: padding-box;
+    background-image: url("./milky-way-2695569_1920.jpg");
 }
 
 #title {
-    text-transform: uppercase;
-    font-family: 'fantasy', 'Times New Roman', Times, serif;
+
     color:whitesmoke;
     font-size: 70px;
-    text-align: left;
+    text-align: center;
+    padding: 50px;
+}
+nav{
+    opacity: 1;
 }
 .form-horizontal label, #bt {
     color: whitesmoke;
@@ -33,3 +41,4 @@ body {
         background-color: none;
         color:black;
     }
+
