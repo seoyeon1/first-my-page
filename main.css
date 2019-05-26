@@ -1,0 +1,44 @@
+body {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    /* overflow: scroll; */
+    min-width: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-clip: padding-box;
+    background-image: url("./milky-way-2695569_1920.jpg");
+}
+
+#title {
+
+    color:whitesmoke;
+    font-size: 70px;
+    text-align: center;
+    padding: 50px;
+}
+nav{
+    opacity: 1;
+}
+.form-horizontal label, #bt {
+    color: whitesmoke;
+}
+.new-account-section ul {
+        list-style:none;
+        background-color:rgba(220, 222, 253, 0.89);
+        opacity: 0.7;
+    }
+
+.new-account-section h3 {
+    color:white;
+}
+.new-account-section li {
+        font-weight: bold;
+        margin:5px;
+        background-color: none;
+        color:black;
+    }
+
